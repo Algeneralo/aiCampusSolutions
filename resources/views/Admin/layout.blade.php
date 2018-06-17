@@ -117,7 +117,7 @@
             <div class="hor-menu">
                 <ul class="nav navbar-nav">
                     <li class="classic-menu-dropdown {{$title=="Dashboard"?'active':''}} ">
-                        <a href="dashboard">
+                        <a href="/dashboard">
                             <i class="icon-graph"></i> Dashboard
                             <span class="arrow"></span>
                         </a>

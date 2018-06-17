@@ -67,7 +67,7 @@
             </form>
             <div class="form-group col-md-1">
                 <br>
-                <a href="\viewTables" class="btn red">
+                <a href="\questionCategory" class="btn red">
                     Cancel
                 </a>
             </div>
