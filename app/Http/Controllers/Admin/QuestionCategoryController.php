@@ -23,8 +23,8 @@ class QuestionCategoryController extends Controller
             ->select('question_category.*', 'colleges.name as college_name')
             ->orderBy('college_name', 'asc')
             ->paginate(8);
-        $data['colleges'] = DB::table('colleges')->get();
-        return view('Admin.QuestionCategory.questionCategory', $data);
+        $data['colleges1'] = DB::table('colleges')->get();
+        return view('Admin.QuestionCategory.questionCategory1', $data);
     }
 
     /**
