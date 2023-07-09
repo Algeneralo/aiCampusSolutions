@@ -10,7 +10,7 @@ class QuestionCategory extends Model
     protected $table = "question_category";
     protected $fillable = ['question', 'college_id'];
 
-    public function college()
+    public function college1()
     {
         return $this->belongsTo('\App\Colleges');
     }
