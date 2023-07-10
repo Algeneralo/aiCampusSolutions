@@ -18,6 +18,7 @@ class QuestionCategoryController extends Controller
     public function index()
     {
         $data=[];
+        $x=ns;
         $data['title'] = "Question Category";
         $data['questionsCategory'] = DB::table('question_category')
             ->join('colleges', 'colleges.id', '=', 'question_category.college_id')
